@@ -1,0 +1,57 @@
+
+        body {
+            background-color: rgb(201, 255, 255);
+            background-image: url("logo.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+         
+        
+        header h1{
+            font-family: "Chicle", sans-serif;
+            text-align: center;
+        }
+        
+        .profile {
+            border: 1px solid #045a5a;
+            border-radius: 4px;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            float: left;
+        }
+
+        .profile img {
+            margin: auto;
+            display: flex;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+
+        }
+
+        .profile .name {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 5px;
+            color: rgb(3, 41, 43);
+        }
+
+        span {
+            color:rgb(16, 92, 95);
+        }
+
+        .profile .info {
+            font-size: 14px;
+            color: rgb(4, 50, 53);
+            margin-bottom: 10px;
+        }
+
+        .profile .email {
+            font-size: 14px;
+            color: rgb(7, 112, 116);
+            text-decoration: underline;
+            cursor: pointer;
+        }
